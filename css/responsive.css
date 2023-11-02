@@ -1,5 +1,6 @@
 @media screen and (max-width: 576px) {
-    .nav-container, .nav-items-container ul {
+    .nav-container, .nav-items-container ul, .banner-container
+    {
         flex-direction: column;
       
     }
@@ -15,11 +16,18 @@
         text-align: center;
        
     }
-    .nav-items-container, .nav-items-container li, .login-btn{
+    .nav-items-container, .nav-items-container li, .banner-content, .banner-img
+    {
         width: 100%;
+        
+    }
+    .login-btn{
         display: block;
     }
-
+    .banner-container{
+        gap: 20px;
+       
+    }
 
 }
 @media screen and (min-width:576px) and (max-width: 960){
